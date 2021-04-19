@@ -1,0 +1,26 @@
+/* Universal Selector Properties */
+*{
+
+}
+
+.section-title {
+    font-style: bold;
+    font-size: 250%;
+
+}
+
+.section-heading {
+    font-style: bold;
+    font-size: 150%;
+
+}
+
+.section-topic {
+    font-style: bold;
+    font-size: 100%
+}
+
+.section-info {
+    font-style: italic;
+    font-size: 100%;
+}
