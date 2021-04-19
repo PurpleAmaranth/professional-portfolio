@@ -3,7 +3,10 @@
 
 }
 
-.section-title {
+nav {
+    background-color: teal;
+}
+/* .section-title {
     font-style: bold;
     font-size: 250%;
 
@@ -23,4 +26,8 @@
 .section-info {
     font-style: italic;
     font-size: 100%;
+} */
+
+footer {
+    background-color: teal;
 }
