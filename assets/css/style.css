@@ -59,8 +59,7 @@ h2 {
     font-size: 250%;
 }
 
-a[href*='.css']::after {
-    content: &#10003;
+a {
     display: inline-block;
     margin-left: 20px;
 }
