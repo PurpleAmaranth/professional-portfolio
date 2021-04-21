@@ -90,15 +90,16 @@ main {
     justify-content: space-around;
 }
 
-section .card {
-    flex: 0 0 400px;
-    background-color: white;
-    padding: 20px;
-}
-
 section {
     background-color: white;
-    padding: 20px
+    padding: 20px;
+    border-color:var(--dark2);
+    border: 10px;
+    margin: 20px;
+}
+
+.demos {
+
 }
 
 .bio-div {
@@ -124,10 +125,16 @@ section {
 
 }
 
+section .card {
+    flex: 0 0 400px;
+    background-color: white;
+    padding: 20px;
+}
+
 .card {
     padding: 20px 10px;
     border: 2px solid var(--light2);
-    background-color: var(--light1);
+    background-color: white;
 }
 /* ul .top {
     position: fixed;
