@@ -110,6 +110,9 @@ section {
 }
 
 section .card {
+    display: inline-block;
+    height: 500px;
+    width: 500px;
     flex: 0 0 400px;
     background-color: white;
     padding: 20px;
