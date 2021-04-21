@@ -1,11 +1,45 @@
 /* Universal Selector Properties */
-*{
+:root {
+    /* Monocromatic Slate Gray */
+    --dark3: #121f1f;
+    --dark2: #1c2f2f;
+    --dark1: #253f3f;
+    --Med:#2f4f4f;
+    --light3: #395f5f;
+    --light2:#426f6f;
+    --light1: #4c7f7f;
+}
 
+* { 
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+}
+
+header {
+    display: flex;
+    hustify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--dark2);
+    color: white;
 }
 
 nav {
     background-color: teal;
 }
+
+ul .top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline;
+}
+
 /* .section-title {
     font-style: bold;
     font-size: 250%;
