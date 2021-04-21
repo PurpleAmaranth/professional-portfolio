@@ -55,13 +55,11 @@ h1 a:visited {
 }
 
 h2 {
-    margin: 2% 0;
     font-size: 250%;
 }
 
 a {
     display: inline-block;
-    margin-left: 20px;
 }
 
 nav ul {
@@ -71,6 +69,16 @@ nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 60px;
+}
+
+.linked-in {
+    border-width: 3px;
+    border-color: var(--dark3);
+    margin-left: 40px;
+}
+
+.top a {
+    margin-left: 20px;
 }
 
 nav a {
@@ -98,21 +106,44 @@ section {
     margin: 20px;
 }
 
-.demos {
-
+section .card {
+    flex: 0 0 400px;
+    background-color: white;
+    padding: 20px;
 }
 
-.bio-div {
-
+.section-title {
+    background-color: var(--dark1);
+    color: white;
+    font-style: bold;
+    font-size: 250%;
 }
 
-.img-div {
-    display: inline-block;
-    vertical-align: top;
+.section-heading {
+    background-color: var(--dark1);
+    color: white;
+    font-style: bold;
+    font-size: 150%;
+    padding: 2%;
 }
 
-.text-div {
-    display: inline-flex;
+section .bio-text {
+    margin: 20px;
+    padding: 20px;
+    border-color: var(--dark3);
+    border: 30px;
+}
+
+p {
+    font-size: 150%;
+}
+
+.connect {
+    background-color:var(--light3);
+}
+
+div {
+    display: inline;
 }
 
 .portrait {
@@ -123,12 +154,6 @@ section {
     border-radius: 100%;
     border-width: 15px;
 
-}
-
-section .card {
-    flex: 0 0 400px;
-    background-color: white;
-    padding: 20px;
 }
 
 .card {
@@ -143,18 +168,6 @@ section .card {
     display: inline;
 } */
 
-/* .section-title {
-    font-style: bold;
-    font-size: 250%;
-
-}
-
-.section-heading {
-    font-style: bold;
-    font-size: 150%;
-
-}
-
 .section-topic {
     font-style: bold;
     font-size: 100%
@@ -163,8 +176,8 @@ section .card {
 .section-info {
     font-style: italic;
     font-size: 100%;
-} */
+} 
 
 footer {
-    background-color: teal;
+    background-color: #30d5c8;
 }
