@@ -4,7 +4,7 @@
     --dark3: #121f1f;
     --dark2: #1c2f2f;
     --dark1: #253f3f;
-    --Med:#2f4f4f;
+    --med:#2f4f4f;
     --light3: #395f5f;
     --light2:#426f6f;
     --light1: #4c7f7f;
@@ -15,30 +15,97 @@
 }
 
 body {
+    background-color: var(--light3);
     display: flex;
     flex-direction: column;
-    line-height: 1.3;
+    line-height: 1;
+    color: white;
 }
 
 header {
     display: flex;
-    hustify-content: space-between;
+    justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    margin-right: 20px;
+    padding: 2%;
     background-color: var(--dark2);
     color: white;
 }
 
-nav {
-    background-color: teal;
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: var(--dark3);
+    color: white;
 }
 
-ul .top {
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    margin: 2% 0;
+    font-size: 250%;
+}
+
+a[href*='.css']::after {
+    content: &#10003;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    background-color: unset;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover {
+    color: var(--light1);
+}
+
+.bio-section {
+    background-image: "./assets/images/gunnison-country-ledgestone.jpg";
+}
+
+.bio-div {
+
+}
+
+.img-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text-div {
+    display: inline-flex;
+}
+
+.portrait {
+    padding: 25px;
+    height: 407px;
+    width: 366px;
+    border-color: var(--dark3);
+    border-radius: 100%;
+    border-width: 15px;
+
+}
+
+/* ul .top {
     position: fixed;
     top: 0;
     width: 100%;
     display: inline;
-}
+} */
 
 /* .section-title {
     font-style: bold;
